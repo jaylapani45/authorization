@@ -12,3 +12,4 @@ app.use('/api/v1',routes)
 app.listen(PORT,()=>{
     console.log(`server running on ${PORT}`)
 })
+export default app
